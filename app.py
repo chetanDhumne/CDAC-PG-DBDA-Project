@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 import pickle
 
-pickel_in = open("C:/Users/panka/Documents/Project 2020/classifier.pkl","rb")
+pickel_in = open("C:\\Users\\chetan dhumne\\Downloads\\CDAC_Project2020\\classifier.pkl","rb")
 rm=pickle.load(pickel_in)
 
 def predictions(pH,EC,OC,N,P,K,S,Zn,Fe,Cu,Mn,B):
